@@ -18,14 +18,18 @@
           zoom: 4,
           center: uluru
         });
-        var marker = new google.maps.Marker({
+        var marker1 = new google.maps.Marker({
           position: uluru,
+          map: map
+        });
+        var marker2 = new google.maps.Marker({
+          position: {lat: -25.163, lng: 131.344},
           map: map
         });
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB47v3KHS2yE-1lQnLcCOZESIIDi_xah4&callback=initMap">
     </script>
   </body>
 </html>
